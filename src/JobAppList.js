@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AppNavbar from './AppNavbar';
 
 class App extends Component {
   state = {
@@ -24,7 +25,9 @@ class App extends Component {
     }
 
     return (
+        
       <div className="App">
+          <AppNavbar></AppNavbar>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <div className="App-intro">

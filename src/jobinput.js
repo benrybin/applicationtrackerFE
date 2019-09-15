@@ -4,16 +4,21 @@ import AppNavbar from './AppNavbar';
 import { Link } from 'react-router-dom';
 import { Button, Container } from 'reactstrap';
 
-class MainPage extends Component {
-  render() {
+
+class JobInput extends Component {
+  
+  
+  
+  
+  
+    render() {
     return (
+
       <div>
-       <AppNavbar></AppNavbar>
-        <Container fluid>
-          <Button color="link"><Link to="/applist">Applications List</Link></Button>
-        </Container>
+    <AppNavbar></AppNavbar>
+      <h1>test</h1>  
       </div>
     );
   }
 }
-export default MainPage;
+export default JobInput;
